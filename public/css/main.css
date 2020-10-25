@@ -1,0 +1,17 @@
+body {
+    font-family: 'Nunito';
+    background-color: #3a3a3a;
+}
+footer{
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
