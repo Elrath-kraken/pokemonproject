@@ -6,7 +6,7 @@
         <h1> Pokemon List </h1>
                 @foreach($pokemons as $pokemon)
                     <div>
-                   {{ $pokemon->name }} - {{ $pokemon->type}} - {{ $pizza->number }}
+                   {{ $pokemon->name }} - {{ $pokemon->type}} - {{ $pokemon->number }}
                     </div>
                  @endforeach
         </div>
