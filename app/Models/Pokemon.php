@@ -7,5 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pokemon extends Model
 {
-protected $table = pokemon;
+    protected $fillable = [
+        'name',
+        'type',
+        'number'
+    ];
 }

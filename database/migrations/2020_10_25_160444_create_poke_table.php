@@ -15,9 +15,10 @@ class CreatePokeTable extends Migration
     {
         Schema::create('pokemon', function (Blueprint $table) {
             $table->id();
-            $table->string('Name');
-            $table->string('Type');
-            $table->string('Number');
+            $table->string('name');
+            $table->string('type');
+            $table->integer('number')->unsigned();
+            $table->timestamps();
         });
     }
 
@@ -28,6 +29,6 @@ class CreatePokeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('poke');
+        Schema::dropIfExists('pokemon');
     }
 }
